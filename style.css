@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: "Courier New", monospace;
+    background-color: #05050a;
+    color: #e0e0e0;
+    line-height: 1.7;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #00ffff, #9b00ff);
+    color: #05050a;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin: 6px 0;
+}
+
+.contact {
+    font-size: 14px;
+}
+
+section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 25px;
+    border-left: 4px solid #00ffff;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+h2 {
+    color: #00ffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: #ff00ff;
+    margin-top: 20px;
+}
+
+.role {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.role span {
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #888888;
+    border-top: 1px solid #222;
+}
