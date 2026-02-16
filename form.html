@@ -1,31 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Student Registration Form</title>
-    <script src="script.js"></script>
+<meta charset="UTF-8">
+<title>Student Registration Form</title>
+<script src="script.js"></script>
+
+<style>
+body {
+    background-color: #0d0d0d;
+    font-family: Arial, sans-serif;
+    color: #00ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #111;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffff;
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+label {
+    color: #00ffff;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: black;
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    box-shadow: 0 0 8px #00ffff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: black;
+    border: 1px solid #ff00ff;
+    color: #ff00ff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #ff00ff;
+    color: black;
+}
+</style>
 </head>
+
 <body>
 
-<h2>Student Registration Form</h2>
+<div class="container">
+<h2>Student Registration</h2>
 
 <form onsubmit="return validateForm()">
 
-    <label>Name:</label><br>
-    <input type="text" id="name"><br><br>
+<label>Name:</label>
+<input type="text" id="name">
 
-    <label>Email:</label><br>
-    <input type="text" id="email"><br><br>
+<label>Email:</label>
+<input type="text" id="email">
 
-    <label>Password:</label><br>
-    <input type="password" id="password"><br><br>
+<label>Password:</label>
+<input type="password" id="password">
 
-    <label>Mobile Number:</label><br>
-    <input type="text" id="mobile"><br><br>
+<label>Mobile Number:</label>
+<input type="text" id="mobile">
 
-    <input type="submit" value="Register">
+<input type="submit" value="Register">
 
 </form>
+</div>
 
 </body>
 </html>
